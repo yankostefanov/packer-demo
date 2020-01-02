@@ -11,7 +11,8 @@
     "source_ami": "ami-844e0bf7",
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "packer-nodejs-demo {{timestamp}}"
+    "ami_name": "packer-nodejs-demo {{timestamp}}",
+    "subnet_id": "subnet-04c647ab57703067c"
   }],
   "provisioners": [
   {
